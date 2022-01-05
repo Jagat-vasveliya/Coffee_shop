@@ -7,10 +7,11 @@
 	flex-direction: row;
 }
 ul {
+	width: 100%;
 	margin: auto;
 	padding-inline-start: 0;
 }
-ul li {
+li {
 	list-style-type: none;
 	width: 100px;
 	margin: 10px;
@@ -20,6 +21,9 @@ ul li {
 	border-radius: 15px;
 	background-color: red;
 	display: inline-block;
+}
+a{
+	text-decoration: none;
 }
 .slide {
 	height: 500px;
